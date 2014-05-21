@@ -14,8 +14,9 @@ This most recent version has been tested with FFmpeg version 2.1.1 and version 7
 
 1. Make sure you have the latest version of [gas-preprocessor.pl](https://github.com/libav/gas-preprocessor) installed into your PATH or you'll get some nasty linker errors.
 2. Check `build-ffmpeg.sh` to see if `VERSION="X.X.X"` is your desired FFmpeg version and `SDKVERSION="Y.Y"` matches your current iOS SDK version.
-3. To build normally: `$ bash build-ffmpeg.sh`
-4. To build for debugging: `$ DEBUG=true bash build-ffmpeg.sh`
+3. install rtmpdump `brew install rtmpdump` when compiling with `--enable-librtmp`
+4. To build normally: `$ bash build-ffmpeg.sh`
+5. To build for debugging: `$ DEBUG=true bash build-ffmpeg.sh`
 
 ## License
 
